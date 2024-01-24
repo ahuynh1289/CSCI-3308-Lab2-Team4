@@ -1,0 +1,18 @@
+Terminal output after conflict:
+
+(base) econ2-193-177-edu:CSCI-3308-Lab2-Team4 andrewhuynh1289$ git merge main
+Auto-merging main.cpp
+CONFLICT (content): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+
+Terminal output after resolution:
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:ahuynh1289/CSCI-3308-Lab2-Team4.git
+   4bcb868..1d04c31  Andrew -> Andrew
